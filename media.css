@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .commitment-boxes {
+    flex-direction: column;
+    gap: 20px;
+    }  
+    .commitment-group {
+    width: 100%;
+    }
+    .form-row {
+    flex-direction: column;
+    gap: 0;
+    }         
+    .radio-group {
+    flex-direction: column;
+    gap: 10px;
+    }    
+    .section-title {
+    font-size: 6vw;
+    }
+}
+    

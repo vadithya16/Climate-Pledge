@@ -1,0 +1,242 @@
+/* navbar */
+nav {
+    background-color: #007e00;;
+    position: fixed !important;
+    width: 100%;
+    z-index: 1;
+}
+.nav-link{
+    color: white !important;
+}
+/* hero section */
+.hero-section {
+    background-image: url(media/heroimg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.hero-layer {
+    background: #00000078;
+    width: 100%;
+    height: 100vh;
+}
+.heromessage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1.h1heromessage {
+    color: green;
+    font-size: 3.5vw;
+    font-family: fantasy;
+}
+a.heroactionbtn {
+    color: white;
+    background: #00800069;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2vw;
+    margin-top: 5vh;
+}
+/* impact section */
+.container-impact {
+    width: 100%;
+    height: 100vh;
+}
+.impact-main-div {
+    width: 100%;
+    height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.impact-boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.impact-box {
+    width: 15%;
+    height: 20vh;
+    background: #80808012;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px 2px lightgray;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.impact-box:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+/* why */
+.container-why {
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d3d396;
+}
+.why-box {
+    width: 25%;
+    height: 40vh;
+    background: #ffffffa1;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px 2px lightgray;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.why-box:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+/* take pledge */
+.container-pledge {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.section-title {
+    color: green;
+    font-size: 3.5vw;
+    font-family: fantasy;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px lightgray;
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.form-group {
+    flex: 1;
+}
+.form-group.full-width {
+    width: 100%;
+}
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+.form-input:focus {
+    outline: none;
+    border-color: #007e00;
+}
+.checkbox-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.checkbox-input {
+    width: 18px;
+    height: 18px;
+    accent-color: #007e00;
+}
+.commitment-section {
+     margin: 30px 0;
+}
+.commitment-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.commitment-group {
+    width: 30%;
+    background: #80808012;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px 2px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.commitment-title {
+    color: #007e00;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.checkbox-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+.checkbox-option input {
+    width: 18px;
+    height: 18px;
+    accent-color: #007e00;
+}
+.privacy-note {
+    background: #e8f5e8;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: #333;
+    font-size: 14px;
+}
+.submit-btn {
+    background: #007e00;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 30px auto 0;
+}
+.submit-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+}
