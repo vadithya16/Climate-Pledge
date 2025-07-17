@@ -13,10 +13,7 @@ This responsive single-page microsite encourages individuals to take personal re
 - ✅ **Interactive Pledge Form** with validation
 - 📊 **Live KPIs** updating total pledges, students, and professionals
 - 🌱 **Commitment Categories**: Energy, Sustainability, and Conservation
-- 🧾 **Auto-generated Digital Certificate** with a print/download option
-- 📌 **Pledge Wall** displaying latest supporters
-- 📱 Fully responsive layout using Bootstrap 5
-- 🎨 Clean, green-themed UI with engaging icons (FontAwesome 6)
+- 🎨 Clean, green-themed UI with engaging icons
 
 ---
 
@@ -29,7 +26,3 @@ This responsive single-page microsite encourages individuals to take personal re
 
 ---
 
-## 📂 File Structure
-
-```bash
-climate_pledge_microsite.html    # Main file containing entire site
