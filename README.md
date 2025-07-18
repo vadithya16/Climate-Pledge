@@ -46,6 +46,7 @@ Experience the Climate Action Pledge website in action!
 Climate-Pledge/
 ├── index.html          # Main HTML file
 ├── style.css           # Main stylesheet
+├── script.js           # Main JS File
 ├── media.css           # Responsive media queries
 ├── media/              # Images and media files
 │   └── heroimg.jpg     # Hero section background
