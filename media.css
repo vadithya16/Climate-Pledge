@@ -1,21 +1,207 @@
+/* Mobile Responsive Design */
 @media (max-width: 768px) {
-    .commitment-boxes {
-    flex-direction: column;
-    gap: 20px;
-    }  
-    .commitment-group {
-    width: 100%;
+    .navbar-nav {
+        text-align: center;
+    }
+    h1.h1heromessage {
+        font-size: 8vw;
+        padding: 0 20px;
+    }
+    a.heroactionbtn {
+        font-size: 4vw;
+        padding: 15px 20px;
+        margin-top: 3vh;
+    }
+    .impact-boxes {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    .impact-box {
+        width: 100%;
+        height: 15vh;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .impact-box h2 {
+        font-size: 6vw;
+    }
+    .impact-box h3 {
+        font-size: 4vw;
+    }
+    .why-box {
+        width: 100%;
+        height: auto;
+        min-height: 30vh;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .why-box h2 {
+        font-size: 8vw;
+    }
+    .why-box h3 {
+        font-size: 5vw;
+    }
+    .why-box p {
+        font-size: 4vw;
+    }
+    .section-title {
+        font-size: 8vw;
+    }
+    .form-card {
+        padding: 20px;
+        margin: 0 10px;
     }
     .form-row {
-    flex-direction: column;
-    gap: 0;
-    }         
+        flex-direction: column;
+        gap: 0;
+    }
+    .form-input {
+        font-size: 16px;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .form-label {
+        font-size: 16px;
+    }
     .radio-group {
-    flex-direction: column;
-    gap: 10px;
-    }    
-    .section-title {
-    font-size: 6vw;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .radio-item {
+        padding: 10px 0;
+    }
+    .commitment-boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .commitment-group {
+        width: 100%;
+    }
+    .commitment-title {
+        font-size: 16px;
+    }
+    .checkbox-option {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .submit-btn {
+        font-size: 16px;
+        padding: 18px 25px;
+        width: 100%;
+    }
+    .certificate-card {
+        padding: 20px;
+        margin: 0 10px;
+    }
+    .certificate-title {
+        font-size: 6vw;
+    }
+    .certificate-subtitle {
+        font-size: 4vw;
+    }
+    .certificate-name-display {
+        font-size: 5vw;
+        padding: 10px;
+    }
+    .certificate-message {
+        font-size: 4vw;
+    }
+    .certificate-thankyou {
+        font-size: 3.5vw;
+    }
+    .certificate-stars-display {
+        font-size: 5vw;
+    }
+    .certificate-date-display {
+        font-size: 3vw;
+    }
+    .certificate-download-btn {
+        font-size: 4vw;
+        padding: 15px 20px;
+        width: 100%;
+    }
+    .pledges-table-card {
+        padding: 20px;
+        margin: 0 10px;
+        overflow-x: auto;
+    }
+    .pledges-table {
+        min-width: 600px;
+        font-size: 14px;
+    }
+    .pledges-table th,
+    .pledges-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .pledges-commitments {
+        max-width: 150px;
+        word-wrap: break-word;
+        font-size: 10px;
+    }
+    .footer-title {
+        font-size: 6vw;
+    }
+    .footer-description {
+        font-size: 4vw;
+        padding: 0 20px;
+    }
+    .footer-bottom p {
+        font-size: 3vw;
+    }
+    .container-impact,
+    .container-why,
+    .container-pledge,
+    .container-certificate,
+    .container-pledges {
+        height: auto;
+        padding: 30px 10px;
+    }
+    .impact-main-div,
+    .certificate-main-div,
+    .pledges-main-div {
+        height: auto;
+        min-height: 50vh;
+        padding: 20px 0;
+    }
+}
+@media print {
+    * {
+        visibility: hidden;
+    }
+    #certificate, #certificate * {
+        visibility: visible;
+    }
+    #certificate {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100% !important;
+        height: 100% !important;
+        background: white !important;
+    }
+    .container-certificate {
+        padding: 0 !important;
+        margin: 0 !important;
+        background: white !important;
+        min-height: auto !important;
+    }
+    .certificate-main-div {
+        height: 100vh !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .certificate-card {
+        max-width: none !important;
+        width: 80% !important;
+        background: white !important;
+        box-shadow: none !important;
+        border: 2px solid #007e00 !important;
+    }
+    .certificate-download-section {
+        display: none !important;
     }
 }
     
