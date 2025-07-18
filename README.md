@@ -8,16 +8,6 @@ A responsive web application that enables users to make climate action pledges a
 
 Experience the Climate Action Pledge website in action!
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## ✨ Features
 
@@ -27,13 +17,6 @@ Experience the Climate Action Pledge website in action!
 - **Certificate Generation**: Personalized certificates with star ratings based on commitments
 - **Pledge Wall**: Public display of all pledges with detailed information
 - **Print Functionality**: Download/print certificates as PDF
-
-### 🎨 Design & UX
-- **Fully Responsive**: Mobile-first design with Bootstrap 5
-- **Green Theme**: Environmental color scheme with custom CSS
-- **Smooth Animations**: Hover effects and transitions throughout
-- **Clean Typography**: Fantasy fonts for headings, readable body text
-- **Accessibility**: ARIA labels and keyboard navigation support
 
 ### 📊 Categories
 1. **⚡ Energy & Transportation**
