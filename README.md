@@ -36,7 +36,7 @@ Experience the Climate Action Pledge website in action!
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Frontend**: HTML5, CSS3, JavaScript
 - **Responsive Design**: Custom CSS with media queries
 - **Print Styles**: Specialized CSS for certificate printing
 
